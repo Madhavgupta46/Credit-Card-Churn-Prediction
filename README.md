@@ -1,108 +1,48 @@
+# Credit Card Churn Prediction using Artificial Neural Network (ANN)
 
-#Credit Card Churn Prediction using Artificial Neural Network (ANN)
-#📌 Project Overview
+## Project Overview
+Customer churn prediction is crucial for financial institutions to retain valuable customers. This project uses an Artificial Neural Network (ANN) to predict whether a credit card customer is likely to churn based on historical customer data and transaction behavior.
 
-Customer churn is a major challenge for financial institutions. This project aims to predict whether a credit card customer will churn or not using an Artificial Neural Network (ANN) model.
-By identifying potential churners early, banks can take proactive measures to retain customers.
+## Objectives
+- Analyze customer data to identify churn patterns
+- Build an ANN-based classification model
+- Predict customer churn with high accuracy
+- Support banks in making data-driven retention decisions
 
-#🎯 Objectives
+## Technology Stack
+Language: Python  
+Libraries:
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- TensorFlow / Keras
 
-Analyze customer behavior using historical credit card data
-
-Build an ANN model to predict customer churn
-
-Improve decision-making for customer retention strategies
-
-Evaluate model performance using accuracy and other metrics
-
-#🧠 Technology Stack
-
-Programming Language: Python
-
-Libraries & Frameworks:
-
-NumPy
-
-Pandas
-
-Matplotlib / Seaborn
-
-Scikit-learn
-
-TensorFlow / Keras
-
-Model Used: Artificial Neural Network (ANN)
-
-#📂 Dataset Description
-
-The dataset contains customer-related information such as:
-
-Customer demographics
-
-Credit limit
-
-Transaction behavior
-
-Account activity
-
-Churn status (Target Variable)
+## Dataset Description
+The dataset consists of customer information including:
+- Demographic details
+- Credit card usage
+- Transaction frequency
+- Credit limit
+- Account activity
 
 Target Variable:
+Churn
+1 -> Customer churned  
+0 -> Customer retained
 
-Exited / Churn
+## Project Workflow
+1. Data Loading
+2. Data Preprocessing
+3. Feature Scaling
+4. ANN Model Construction
+5. Model Training
+6. Model Evaluation
 
-1 → Customer Churned
-
-0 → Customer Retained
-
-⚙️ Methodology
-
-Data Collection & Loading
-
-Data Preprocessing
-
-Handling missing values
-
-Encoding categorical variables
-
-Feature scaling
-
-Train-Test Split
-
-ANN Model Building
-
-Input layer
-
-Hidden layers with activation functions
-
-Output layer (Sigmoid activation)
-
-Model Training
-
-Model Evaluation
-
-Accuracy
-
-Confusion Matrix
-
-Loss & Accuracy plots
-
-#🧪 Model Architecture
-
-Input Layer: Based on number of features
-
-Hidden Layers: Dense layers with ReLU activation
-
-Output Layer: Single neuron with Sigmoid activation
-
-Optimizer: Adam
-
-Loss Function: Binary Crossentropy
-
-📊 Results
-
-The ANN model successfully predicts customer churn
-
-Achieved high accuracy on test data
-
-Demonstrates the effectiveness of neural networks in churn prediction problems
+## ANN Model Architecture
+- Input Layer: Based on number of features
+- Hidden Layers: Dense layers with ReLU activation
+- Output Layer: Sigmoid activation (Binary Classification)
+- Optimizer: Adam
+- Loss Function: Binary Crossentropy
