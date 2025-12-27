@@ -1,11 +1,11 @@
-# Credit-Card-Churn-Prediction
-Credit Card Churn Prediction using Artificial Neural Network (ANN)
-📌 Project Overview
+
+#Credit Card Churn Prediction using Artificial Neural Network (ANN)
+#📌 Project Overview
 
 Customer churn is a major challenge for financial institutions. This project aims to predict whether a credit card customer will churn or not using an Artificial Neural Network (ANN) model.
 By identifying potential churners early, banks can take proactive measures to retain customers.
 
-🎯 Objectives
+#🎯 Objectives
 
 Analyze customer behavior using historical credit card data
 
@@ -15,7 +15,7 @@ Improve decision-making for customer retention strategies
 
 Evaluate model performance using accuracy and other metrics
 
-🧠 Technology Stack
+#🧠 Technology Stack
 
 Programming Language: Python
 
@@ -33,7 +33,7 @@ TensorFlow / Keras
 
 Model Used: Artificial Neural Network (ANN)
 
-📂 Dataset Description
+#📂 Dataset Description
 
 The dataset contains customer-related information such as:
 
@@ -87,7 +87,7 @@ Confusion Matrix
 
 Loss & Accuracy plots
 
-🧪 Model Architecture
+#🧪 Model Architecture
 
 Input Layer: Based on number of features
 
