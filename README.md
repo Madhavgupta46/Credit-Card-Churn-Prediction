@@ -46,3 +46,18 @@ Churn
 - Output Layer: Sigmoid activation (Binary Classification)
 - Optimizer: Adam
 - Loss Function: Binary Crossentropy
+
+## Results
+- The ANN model effectively predicts customer churn
+- Achieved strong accuracy on test data
+- Demonstrates the usefulness of deep learning in churn prediction
+- Future Scope
+- Hyperparameter tuning
+- Comparison with machine learning models
+- Model deployment using Flask or Streamlit
+- Real-time churn prediction system
+
+## Author
+Madhav Gupta
+Credit Card Churn Prediction using ANN
+Academic Project
