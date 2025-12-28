@@ -61,3 +61,11 @@ Churn
 Madhav Gupta
 Credit Card Churn Prediction using ANN
 Academic Project
+
+
+Metric	Value
+0	Accuracy	0.865500
+1	Precision	0.754098
+2	Recall	0.468193
+3	F1-Score	0.577708
+4	ROC-AUC	0.855058
